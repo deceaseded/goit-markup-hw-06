@@ -740,6 +740,11 @@
     align-items: center;
     margin-bottom: 30px;
   }
+  .form__offer.offer{
+    display: flex;
+    justify-content: center;
+  }
+  
   .offer__checkbox {
     position: absolute;
     width: 1px;
