@@ -772,12 +772,12 @@
   }
   
   .offer__link {
+    display: flex;
     margin-left: 6px;
     color: var(--accent-color);
     line-height: 1.71;
     text-decoration: underline;
-    justify-content: center;
-    text-align: center;
+    align-items:center;
   }
   
   .form__bottom {
