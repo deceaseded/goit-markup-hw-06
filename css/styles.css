@@ -655,6 +655,9 @@
   .modal__btn:hover > .btn-icon {
     fill: var(--accent-color);
   }
+  .modal__btn:focus > .btn-icon {
+    fill: var(--accent-color);
+  }
   
   .back-drop.is-hidden {
     pointer-events: none;
@@ -698,6 +701,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border-color 250ms var(--transition-timing);
+    outline: transparent
   }
   
   .form-group__input:hover,
@@ -772,6 +776,8 @@
     color: var(--accent-color);
     line-height: 1.71;
     text-decoration: underline;
+    justify-content: center;
+    text-align: center;
   }
   
   .form__bottom {
@@ -782,4 +788,10 @@
     padding: 10px 52px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .form__btn:hover{
+    background: #188CE8;
+  }
+  .form__btn:focus{
+    background: #188CE8;
   }
